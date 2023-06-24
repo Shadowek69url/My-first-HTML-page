@@ -1,0 +1,280 @@
+body {
+    background-color: #333333;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#logo {
+    background-color: black;
+    height: 125px;
+    width: 100%;
+}
+
+#audi {
+    width: 155px;
+    height: 125px;
+}
+
+#white {
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+    margin: 0px 15px;
+    text-shadow: 1px 1px 2px white;
+    padding-top: 75px;
+}
+
+.nextto {
+    display: flex;
+    float: left;
+    margin-left: 150px;
+}
+
+#navigation {
+    width: 100%;
+    height: 56px;
+    background-color: #202020
+}
+
+ ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   margin: 0;
+   padding-top: 18px;
+   color: white;
+   margin: 0px 380px;
+}
+
+ li {
+    border-right: 2px dashed white;
+    padding-right: 40px;
+ }
+
+ li:first-child {
+    border-left: 2px dashed white;
+    padding-left: 40px;
+ }
+
+ a {
+    text-decoration: none;
+    color: white;
+ }
+
+ a:hover {
+    color: gray;
+ }
+
+ #container {
+    background-color: #444444;
+    min-width: 400px;
+    max-width: 850px;
+    overflow: auto;
+    margin: 0 auto;
+ }
+ 
+
+ h1 {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;;
+ }
+
+ h2 {
+    margin: 0;
+    text-align: auto;
+    margin-left: 20px;
+    padding-top: 25px;
+ }
+
+ p {
+    margin-left: 20px; 
+    margin-right: 20px;
+    text-align: justify;
+ }
+
+ #history {
+    background-color: #555555;
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+ }
+
+ #text1 {
+    background-color: #666666;
+    min-width: 400px;
+    max-width: 850px;
+    margin: 0 auto;
+    overflow: auto;
+ }
+
+ #Models {
+    margin: 0;
+    background-color: #cccccc;
+    width: 100%;
+    overflow: auto;
+ }
+
+ #cars {
+    overflow: auto;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 30px;
+ }
+
+ #row1 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+ } 
+ 
+ #row2 {
+    padding-top: 45px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+ }
+
+ .audi {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s ease-out;
+ }
+
+ .audi:hover {
+   width: 315px;
+   height: 215px;
+ }
+
+ #example {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+ }
+
+.under {
+    text-align: justify;
+    margin: 0;
+}
+
+.margin {
+   margin: 0;
+}
+
+.block {
+   display: block;
+   transition: 1s ease-in;
+   text-align: center;
+   margin-right: 55px;
+   padding: 0px 25px 25px;
+ }
+
+.block:hover {
+   background-color: rgba(255, 255, 255, 0.325);
+   opacity: 85%;
+   box-shadow: 0px 0px 22px 0px white;
+ }
+
+ #mainCreator {
+   width: 100%;
+   background-color: #3333aa;
+   overflow: auto;
+ }
+
+ #Creator {
+   background-color: #4444bb;
+   min-width: 400px;
+   max-width: 850px;
+   margin: 0 auto;
+   overflow: auto;
+ }
+
+ #audicreator {
+   width: 150px;
+   height: 125px;
+   padding: 20px 10px 0px 20px;
+   float: left;
+ }
+
+ #text2 {
+   padding-top: 20px;
+   padding-right: 10px;
+   margin: 0;
+ }
+
+ #footer {
+   width: 100%;
+   background-color: #4444aa;
+   overflow: auto;
+ }
+
+ #foot {
+   text-align: center;
+   font-weight: 700;
+   font-size: 25px;
+ }
+
+ input {
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   flex-direction: column;
+ }
+
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+ }
+
+ input[type=name] {
+    margin-bottom: 40px;
+    width: 275px;
+    font-size: 17px;
+ }
+
+ input[type=email] {
+   margin-bottom: 40px;
+   width: 275px;
+   font-size: 17px;
+ }
+
+ input[type=number] {
+   margin-bottom: 25px;
+   width: 275px;
+   font-size: 17px;
+ }
+
+ input[type=submit] {
+   width: 100px;
+   height: 35px;
+   font-size: 25px;
+   margin-bottom: 15px;
+   background-color:#5555bb;
+   border: 1px solid #5555bb;
+   border-radius: 10px;
+ }
+
+ input[type=submit]:hover {
+   background-color:#6666cc;
+   border: 1px solid #6666cc;
+   cursor: pointer;
+ }
+
+ #underfoot {
+   background-color: #3333bb;
+   width: 100%;
+   overflow: auto;
+   font-size: 15px;
+ }
+
+ #copyright {
+   text-align: center;
+   font-weight: 200;
+ }
